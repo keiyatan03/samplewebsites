@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>English School</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- needed for the icons to appear in the webpage.
+need to download file from fontawesome.org -->
+<link rel="stylesheet" href="/home/keiya/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <!-- logo of the website -->
+
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+
+                    <!-- adding a little javascript for closing the menu
+                    on small devices -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <!-- navigation menu bar -->
+                    <ul>
+                        <li><a href="/home/keiya/repos/english-school/index.html">HOME</a></li>
+                        <li><a href="/home/keiya/repos/english-school/about.html">ABOUT</a></li>
+                        <li><a href="/home/keiya/repos/english-school/course.html">COURSE</a></li>
+                        <li><a href="/home/keiya/repos/english-school/blog.html">BLOG</a></li>
+                        <li><a href="/home/keiya/repos/english-school/contact.html">CONTACT </a></li>
+                    </ul>
+                </div>
+                <!-- adding a little javascript for showing the menu
+                    on small devices -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+                
+            <div class="text-box">
+                <h1>Fun English School</h1>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."<br>
+                    "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+                    </p>
+                    <a href="" class="link1">Contact Us To Know More</a>
+            </div>
+
+
+        </section>
+
+        <!-- course section -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <!-- made another div to place this div below the title -->
+            <div class="row">
+                <div class="course-column">
+                    <h3>Intermediate</h3>
+                    <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                </div>
+                <div class="course-column">
+                    <h3>Degree</h3>
+                    <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                </div>
+                <div class="course-column">
+                    <h3>Post Graduation</h3>
+                    <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--- campus section --->  
+
+        <section class="campus">
+            <!-- heading section of campus -->
+            <h1>Our Global Campus</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+            <!-- items of campus section -->
+            <!-- div(layer) was inside the div(campus-column)
+            so that i can write a text inside the image -->
+            <div class="row">
+                <div class="campus-column">
+                    <img src="images/london.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-column">
+                    <img src="images/newyork.png">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-column">
+                    <img src="images/washington.png">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- facilities section -->
+
+        <section class="facilities">
+                <h1>Our Facilities</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                <div class="row">
+                    <div class="facilities-column">
+                        <img src="images/library.png">
+                        <h3>World Class Library</h3>
+                        <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                    <div class="facilities-column">
+                        <img src="images/basketball.png">
+                        <h3>Largest Playground</h3>
+                        <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                    <div class="facilities-column">
+                        <img src="images/cafeteria.png">
+                        <h3>Tasty and Healthy Food</h3>
+                        <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Testimonials section or comment section -->
+
+        <section class="testimonials">
+            <h1>What Our Student Says</h1>
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+                </p>
+                <!--  codes to make a comment section in the website -->
+                <div class="row">
+                <div class="testimonial-column">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                            <h3>Christine Barkley</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-column">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+                            <h3>David Byer</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <!-- Call to Action Section -->
+
+        <section class="cta">
+            <h1>Enroll For Our Varius Online Courses<br> Anyware From The World</h1>
+            <a href="" class="link1">CONTACT US</a>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>psum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            <!-- code for icons -->
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with<i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+
+        </section>
+
+
+
+
+        
+        <!-- JavaScript for menu section in a small devices -->
+        <script>
+            /* this code is use to connect specific section from html to javascript */ 
+            var navLinks = document.getElementById ("navLinks");
+            /* in css(@media) the nav-links(navigation menu) right is -200px so that
+            it stays hidden, I made this function to and made it "0" to show the
+            menu section when they click menu bar  */
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            /* made this function(-200px) to hide the menu section 
+            when they click the close bar */
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
