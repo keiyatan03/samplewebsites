@@ -53,7 +53,7 @@ a, li {
     font-size:  18px;
     color: #e5e7eb;
 }
-.textbox .link1 {
+.link1 {
     border-radius: 10px;
     padding: 10px 40px;
     margin-top: 10px;
@@ -115,4 +115,28 @@ a, li {
     color: #1f2937;
     font-weight: 900;
     align-self: flex-end;
+}
+
+/* forth column of the webpage */
+.forth-column {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container4 {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.container4 .link1 {
+    border: 2px solid white;
 }
