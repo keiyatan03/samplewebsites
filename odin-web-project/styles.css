@@ -90,3 +90,29 @@ a, li {
 .small-con img {
     border-radius: 10px;
 }
+
+/* third column of the webpage */
+.third-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: #e5e7eb;
+}
+.third-column .container3 {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: flex-start;
+}
+.quotes {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.writer {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: flex-end;
+}
